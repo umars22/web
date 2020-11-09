@@ -1,0 +1,37 @@
+- hosts: web
+  tasks: 
+  - name: install httpd
+    yum:
+      name: httpd 
+      state: latest
+
+  - name: start httpd
+    service:
+      name: httpd
+      state: started
+
+  - name: disable selinux
+    selinux:
+      state: disabled
+
+  - name: install wget & unzip
+    yum:
+      name: 
+      - wget
+      - unzip
+
+  - name: Download template
+    get_url:
+      url: https://www.free-css.com/assets/files/free-css-templates/download/page260/wavefire.zip
+      dest: /var/www/html/
+    
+  - name: Unarchive a file that is already on the remote machine
+    unarchive:
+      src: /var/www/html/wavefire.zip
+      dest: /var/www/html
+      remote_src: yes
+
+  - name: unpack
+    shell: "mv /var/www/html/wavefire/* /var/www/html/"
+
+

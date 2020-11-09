@@ -1,0 +1,30 @@
+[2020-11-09 19:20:23.790] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-11-09 19:20:23.790] [remoteagent] [info] Extension host agent started.
+[2020-11-09 19:20:27.314] [remoteagent] [info] [127.0.0.1][2d1d0e78][ManagementConnection] New connection established.
+[2020-11-09 19:20:27.320] [remoteagent] [info] [127.0.0.1][d715f21a][ExtensionHostConnection] New connection established.
+[2020-11-09 19:20:27.387] [remoteagent] [info] [127.0.0.1][d715f21a][ExtensionHostConnection] <1447> Launched Extension Host Process.
+[2020-11-09 19:20:31.987] [remoteagent] [info] [127.0.0.1][2d1d0e78][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-11-09 19:20:33.003] [remoteagent] [info] [127.0.0.1][d715f21a][ExtensionHostConnection] <1447> Extension Host Process exited with code: 0, signal: null.
+[2020-11-09 19:20:33.003] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-11-09 19:20:34.142] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-11-09 19:20:34.142] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-11-09 19:20:34.377] [remoteagent] [info] [127.0.0.1][df1a126d][ManagementConnection] New connection established.
+[2020-11-09 19:20:34.378] [remoteagent] [info] [127.0.0.1][47a32949][ExtensionHostConnection] New connection established.
+[2020-11-09 19:20:34.385] [remoteagent] [info] [127.0.0.1][47a32949][ExtensionHostConnection] <1530> Launched Extension Host Process.
+[2020-11-09 19:24:25.152] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2020-11-09 19:25:34.144] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-11-09 20:24:16.865] [remoteagent] [info] [127.0.0.1][df1a126d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-11-09 20:29:32.202] [remoteagent] [info] [127.0.0.1][df1a126d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-11-09 20:29:32.203] [remoteagent] [info] [127.0.0.1][df1a126d][ManagementConnection] The client has reconnected.
+[2020-11-09 20:29:33.471] [remoteagent] [info] [127.0.0.1][47a32949][ExtensionHostConnection] The client has reconnected.
+[2020-11-09 20:54:50.834] [remoteagent] [info] [127.0.0.1][df1a126d][ManagementConnection] The client has reconnected.
+[2020-11-09 20:54:50.839] [remoteagent] [info] [127.0.0.1][47a32949][ExtensionHostConnection] The client has reconnected.
